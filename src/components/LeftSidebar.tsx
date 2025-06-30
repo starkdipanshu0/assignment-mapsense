@@ -133,7 +133,7 @@ const LeftSidebar = () => {
 
 
                         </div>}
-                        {activeTab === "Option3" && <div>🧩 Asset Library here</div>}
+                        {activeTab === "Option3" && <div></div>}
                     </div>
 
                 </div>
