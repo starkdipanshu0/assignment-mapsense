@@ -2,7 +2,8 @@
 import './App.css'
 import BottomBar from './components/BottomBar';
 import CanvasArea from './components/CanvasArea';
-import LeftSidebar from './components/LeftSideBar';
+import LeftSidebar from './components/LeftSidebar';
+
 import RightPanel from './components/RightPanel';
 import TopBar from './components/TopBar';
 export default function App() {
