@@ -11,9 +11,9 @@ const LeftSidebar = () => {
     }
 
     return (
-        <div className="w-64 border-r  grid grid-cols-3 h-full">
+        <div className="w-62 border-r  grid grid-cols-3 h-full">
             {/* Tab buttons */}
-            <div className="col-span-2 h-full">
+            <div className="col-span-2 h-full ">
                 <div className="grid grid-cols-2 gap-0 mb-2">
                     <button
                         className={`w-full py-2 border-b-2 text-sm ${activeTab === "Layers" ? "border-b-black  " : ""
@@ -146,7 +146,7 @@ const LeftSidebar = () => {
                 >
                     Design
                 </button>
-                <div className="col-span-1 flex flex-col   overflow-x-clip">🎨 Design Tools here</div>
+                <div className="col-span-1 flex flex-col   overflow-x-clip"></div>
 
             </div>
         </div>
