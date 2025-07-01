@@ -1,5 +1,5 @@
 const RightPanel = () => (
-  <div className="w-62  p-3 text-sm">
+  <div className="w-62 lg:w-80 p-3 text-sm">
     <div className="text-left border-b mb-3">
   <h2 className="text-lg font-semibold mb-2">Properties</h2>
 </div>
