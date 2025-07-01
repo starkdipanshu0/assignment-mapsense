@@ -12,7 +12,7 @@ export default function App() {
 
 
   return (
-    <div className="h-screen flex flex-col border-2 border-gray-400 rounded-lg overflow-hidden">
+    <div className="h-screen flex flex-col border-2 border-gray-400 rounded-lg overflow-x-hidden">
       <TopBar
         onToggleLeft={() => {
           setShowLeftSidebar(prev => !prev);
